@@ -20,8 +20,6 @@ header, section, footer, div{box-sizing: border-box;}
 #wrap{
     width: 1200px; 
     margin: 0 auto;    
-    border-left: 0.5px solid #ddd;
-    border-right: 0.5px solid #ddd;
 }
 
 
