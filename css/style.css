@@ -9,7 +9,7 @@ a{text-decoration: none; color: var(--txt);}
 li{list-style: none;}
 header, section, footer, div{box-sizing: border-box;}
 .clearfix::before, .clearfix::after {display: block; content: ''; clear: both;}
-.HT{
+.hide-txt{
     position: absolute;
     width: 1px;
     height: 1px;
