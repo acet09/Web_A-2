@@ -28,6 +28,8 @@ header{
     position: relative;
     width: 1200px;
     height: 100px;
+    border-left: 0.5px solid #ddd;
+    border-right: 0.5px solid #ddd;
 }
 /* nav */
 nav{
@@ -153,9 +155,9 @@ section#contents{
     height: 200px;
     display: flex;
     padding: 5px 0;
-    /* box-sizing: border-box; */
     justify-content: space-between;
-    border-bottom: 0.5px solid #ddd;
+    border: 0.5px solid #ddd;
+    border-top:none;
 }
 section#contents > div{
     width: 390px;
@@ -335,5 +337,6 @@ footer#footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.5px solid #ddd;
+    border: 0.5px solid #ddd;
+    border-top: none;
 }
